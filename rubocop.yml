@@ -1,0 +1,43 @@
+require:
+  - rubocop-performance
+  - rubocop-rspec
+
+inherit_gem:
+  rubocop-shopify: rubocop.yml
+
+Bundler/OrderedGems:
+  Enabled: true
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: true
+  EnforcedStyleForMultiline: no_comma
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: true
+  EnforcedStyleForMultiline: no_comma
+
+Style/TrailingCommaInArguments:
+  Enabled: true
+  EnforcedStyleForMultiline: no_comma
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+  - "spec/**/*"
+
+Style/MethodCallWithArgsParentheses:
+ Exclude:
+  - "spec/**/*"
+  - "db/migrate/*"
+  - "db/schema.rb"
+
+Naming/InclusiveLanguage:
+  Enabled: false # Nope!
+
+AllCops:
+  NewCops: enable
