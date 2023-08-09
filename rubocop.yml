@@ -37,7 +37,7 @@ Style/MethodCallWithArgsParentheses:
   - "db/schema.rb"
 
 Naming/InclusiveLanguage:
-  Enabled: false # Nope!
+  Enabled: false
 
 AllCops:
   NewCops: enable
