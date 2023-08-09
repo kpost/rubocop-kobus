@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
 
   spec.files = ["rubocop.yml", "LICENSE.txt"]
 
-  spec.add_dependency("rubocop", "~> 1.55")
+  spec.add_dependency("rubocop", "~> 1.56")
   spec.add_dependency("rubocop-performance", "~> 1.18")
   spec.add_dependency("rubocop-rspec", "~> 2.23")
   spec.add_dependency("rubocop-shopify", "~> 2.14")
