@@ -5,6 +5,7 @@ Gem::Specification.new do |spec|
   spec.version = RubocopKobus::VERSION
   spec.author = "Kobus Post"
   spec.email = "me@kobuspost.dev"
+  spec.homepage = "https://github.com/kpost/rubocop-kobus"
 
   spec.summary = "My personal Rubocop config"
   spec.description = "Gem containing Kobus Post's personal Rubocop config. Based on rubocop-shopify."
