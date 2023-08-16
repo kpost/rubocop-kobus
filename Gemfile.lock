@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-kobus (0.6.0)
+    rubocop-kobus (0.7.0)
       rubocop (~> 1.56)
       rubocop-performance (~> 1.18)
       rubocop-rspec (~> 2.23)

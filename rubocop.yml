@@ -42,5 +42,8 @@ Naming/InclusiveLanguage:
 RSpec/NestedGroups:
   Max: 5
 
+RSpec/NamedSubject:
+  EnforcedStyle: named_only
+
 AllCops:
   NewCops: enable
