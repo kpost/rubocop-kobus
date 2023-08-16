@@ -39,5 +39,8 @@ Style/MethodCallWithArgsParentheses:
 Naming/InclusiveLanguage:
   Enabled: false
 
+RSpec/NestedGroups:
+  Max: 5
+
 AllCops:
   NewCops: enable
