@@ -42,8 +42,17 @@ Naming/InclusiveLanguage:
 RSpec/NestedGroups:
   Max: 5
 
+RSpec/ExampleLength:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
 RSpec/NamedSubject:
   EnforcedStyle: named_only
+
+Lint/UnusedMethodArgument:
+  Enabled: true
 
 AllCops:
   NewCops: enable
