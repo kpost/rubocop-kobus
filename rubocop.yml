@@ -35,6 +35,7 @@ Style/MethodCallWithArgsParentheses:
   - "spec/**/*"
   - "db/migrate/*"
   - "db/schema.rb"
+  - "*.jbuilder"
 
 Naming/InclusiveLanguage:
   Enabled: false
