@@ -28,14 +28,14 @@ Style/ClassAndModuleChildren:
 
 Metrics/BlockLength:
   Exclude:
-  - "spec/**/*"
+    - "spec/**/*"
 
 Style/MethodCallWithArgsParentheses:
- Exclude:
-  - "spec/**/*"
-  - "db/migrate/*"
-  - "db/schema.rb"
-  - "*.jbuilder"
+  Exclude:
+    - "spec/**/*"
+    - "db/migrate/*"
+    - "db/schema.rb"
+    - "**/*.jbuilder"
 
 Naming/InclusiveLanguage:
   Enabled: false
