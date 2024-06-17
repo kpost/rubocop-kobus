@@ -16,6 +16,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency("rubocop", "~> 1.56")
   spec.add_dependency("rubocop-performance", "~> 1.18")
-  spec.add_dependency("rubocop-rspec", "~> 2.23")
+  spec.add_dependency("rubocop-rspec", ">= 2.23", "< 4.0")
   spec.add_dependency("rubocop-shopify", "~> 2.14")
 end
