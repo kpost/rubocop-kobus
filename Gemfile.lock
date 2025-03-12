@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-kobus (0.9.0)
+    rubocop-kobus (0.9.1)
       rubocop (~> 1.56)
       rubocop-performance (~> 1.18)
       rubocop-rspec (>= 2.23, < 4.0)
@@ -11,7 +11,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
-    json (2.10.1)
+    json (2.10.2)
     language_server-protocol (3.17.0.4)
     lint_roller (1.1.0)
     parallel (1.26.3)
@@ -41,8 +41,8 @@ GEM
     rubocop-rspec (3.5.0)
       lint_roller (~> 1.1)
       rubocop (~> 1.72, >= 1.72.1)
-    rubocop-shopify (2.15.1)
-      rubocop (~> 1.51)
+    rubocop-shopify (2.16.0)
+      rubocop (~> 1.62)
     ruby-progressbar (1.13.0)
     unicode-display_width (3.1.4)
       unicode-emoji (~> 4.0, >= 4.0.4)
@@ -51,10 +51,11 @@ GEM
 PLATFORMS
   arm64-darwin-22
   arm64-darwin-23
+  arm64-darwin-24
   x86_64-linux
 
 DEPENDENCIES
   rubocop-kobus!
 
 BUNDLED WITH
-   2.4.20
+   2.6.3
