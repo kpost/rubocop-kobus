@@ -55,5 +55,9 @@ RSpec/NamedSubject:
 Lint/UnusedMethodArgument:
   Enabled: true
 
+Layout/LineLength:
+  Enabled: true
+  Max: 120
+
 AllCops:
   NewCops: enable
