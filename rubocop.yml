@@ -29,10 +29,12 @@ Style/ClassAndModuleChildren:
 Metrics/BlockLength:
   Exclude:
     - "spec/**/*"
+    - "test/**/*"
 
 Style/MethodCallWithArgsParentheses:
   Exclude:
     - "spec/**/*"
+    - "test/**/*"
     - "db/migrate/*"
     - "db/schema.rb"
     - "**/*.jbuilder"
@@ -58,6 +60,9 @@ Lint/UnusedMethodArgument:
 Layout/LineLength:
   Enabled: true
   Max: 120
+  Exclude:
+    - "db/migrate/*"
+    - "db/schema.rb"
 
 AllCops:
   NewCops: enable
